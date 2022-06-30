@@ -55,4 +55,3 @@ add_library(libgfortran SHARED ${FORTRAN_SRCS})
 target_compile_options(libgfortran PRIVATE ${FORTRAN_CXXFLAGS})
 target_include_directories(libgfortran PRIVATE
   ${LIBGFORTRAN_COMMON_INCDIRS})
-target_link_libraries(libgfortran PRIVATE LLVM)
