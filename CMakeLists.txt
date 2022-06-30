@@ -1,3 +1,7 @@
+cmake_minimum_required (VERSION 3.16)
+project(wizard CXX C Fortran)
+include(cmake/wizard.cmake)
+
 set(LIBGFORTRAN_COMMON_CXXFLAGS
   -w -ggdb3 -O0 -DIN_GCC -fno-exceptions -fno-rtti
   -fasynchronous-unwind-tables -DHAVE_CONFIG_H

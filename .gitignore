@@ -1,0 +1,11 @@
+a.out
+*.[oO]
+*.d
+*.swp
+workspace/
+output/
+build/
+*.pyc
+__pycache__
+*.mod
+*.log
